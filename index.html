@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ética Profesional — Programa de Asignatura (One-Page)</title>
+    <link rel="stylesheet" href="estilos/estilos.css" />
+  </head>
+  <body>
+    <!-- HEADER: es el encabezado principal de la página, aquí pongo el título y el menú de navegación -->
+    <header class="encabezado">
+      <div class="contenedor encabezado__fila">
+        <div class="marca">Ética Profesional (TI)</div>
+
+        <!-- NAV: este es el menú de navegación principal, sirve para movernos entre las secciones -->
+        <nav class="menu" aria-label="Navegación principal">
+          <ul class="menu__lista">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#datos-clave">Datos clave</a></li>
+            <li><a href="#proposito">Propósito</a></li>
+            <li><a href="#unidades">Unidades</a></li>
+            <li><a href="#temas">Temas</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#plan-asignatura">Plan (PDF)</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN: aquí va todo el contenido principal de la página -->
+    <main id="contenido-principal">
+      <!-- SECTION: inicio o portada -->
+      <section id="inicio" class="seccion">
+        <div class="contenedor">
+          <h1 class="titulo">Ética Profesional</h1>
+          <p class="descripcion">Resumen del programa.</p>
+        </div>
+      </section>
+
+      <!-- SECTION: información básica de la materia -->
+      <section id="datos-clave" class="seccion">
+        <div class="contenedor tarjeta">
+          <h2>Programa educativo y datos</h2>
+          <!-- DL: lista de definiciones (para poner los datos en pares, tipo campo y valor) -->
+          <dl class="kvs">
+            <dt>Programa educativo</dt>
+            <dd>
+              Licenciatura en Ingeniería en Tecnologías de la Información e
+              Innovación Digital
+            </dd>
+            <dt>Nombre de la asignatura</dt>
+            <dd>Ética Profesional (Clave: T-EPR-2)</dd>
+            <dt>Cuatrimestre</dt>
+            <dd>4.º</dd>
+            <dt>Créditos</dt>
+            <dd>3.75</dd>
+            <dt>Modalidad</dt>
+            <dd>Escolarizada</dd>
+            <dt>Horas por semana</dt>
+            <dd>4</dd>
+            <dt>Horas totales</dt>
+            <dd>60</dd>
+          </dl>
+        </div>
+      </section>
+
+      <!-- SECTION: propósito principal + ASIDE con algo relacionado -->
+      <section id="proposito" class="seccion">
+        <div class="contenedor columnas">
+          <!-- ARTICLE: contenido principal, se puede leer por separado -->
+          <article class="tarjeta">
+            <h2>Propósito de aprendizaje</h2>
+            <p>
+              El estudiante determinará su actuar personal, profesional y social
+              con base en principios, juicios y códigos éticos, propios y
+              organizacionales.
+            </p>
+          </article>
+
+          <!-- ASIDE: información complementaria al artículo -->
+          <aside class="tarjeta complementario">
+            <h3>Competencia relacionada</h3>
+            <p>
+              Actuar con valores, principios éticos y habilidades para
+              desarrollarse profesional y socialmente.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <!-- SECTION: lista de unidades del curso -->
+      <section id="unidades" class="seccion">
+        <div class="contenedor">
+          <h2>Unidades de aprendizaje</h2>
+          <div class="rejilla">
+            <article class="tarjeta">
+              <h3>Unidad I. Introducción a la Ética</h3>
+              <p><strong>Horas:</strong> 22</p>
+            </article>
+
+            <article class="tarjeta">
+              <h3>Unidad II. Ética Profesional y Códigos de Ética</h3>
+              <p><strong>Horas:</strong> 22</p>
+            </article>
+
+            <article class="tarjeta">
+              <h3>Unidad III. Bioética</h3>
+              <p><strong>Horas:</strong> 16</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: temas que se ven en cada unidad -->
+      <section id="temas" class="seccion">
+        <div class="contenedor">
+          <h2>Temas por unidad</h2>
+          <article class="tarjeta">
+            <h3>Unidad I. Introducción a la Ética</h3>
+            <ul class="lista">
+              <li>Generalidades de la Ética como ciencia.</li>
+              <li>Actos humanos y dignidad moral.</li>
+              <li>Elementos del juicio ético: Objeto, Fin y Circunstancia.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION: parte multimedia (imágenes y video) -->
+      <section id="multimedia" class="seccion">
+        <div class="contenedor">
+          <h2>Multimedia</h2>
+
+          <!-- FIGURE: sirve para poner imagen + pie de foto -->
+          <div class="rejilla">
+            <figure class="tarjeta figura">
+              <img
+                src="img/eticaTI.jpg"
+                alt="Ilustración alusiva a la asignatura Ética Profesional"
+              />
+              <figcaption>Ética profesional en el ámbito de TI.</figcaption>
+            </figure>
+
+            <figure class="tarjeta figura">
+              <img
+                src="img/codEtica.jpg"
+                alt="Códigos de ética en organizaciones"
+              />
+              <figcaption>
+                Códigos de ética: personal, profesional y organizacional.
+              </figcaption>
+            </figure>
+
+            <figure class="tarjeta figura">
+              <img
+                src="img/bioetica.png"
+                alt="Concepto de bioética y sostenibilidad"
+              />
+              <figcaption>
+                Bioética y sostenibilidad en proyectos tecnológicos.
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- VIDEO: pequeño clip explicativo -->
+          <div class="tarjeta video">
+            <h3>Video breve</h3>
+            <video controls width="100%" preload="metadata">
+              <source src="video/etica.mp4" type="video/mp4" />
+              Tu navegador no puede reproducir el video.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: recursos o links extra -->
+      <section id="recursos" class="seccion">
+        <div class="contenedor"><h2>Recursos</h2></div>
+      </section>
+
+      <!-- SECTION: PDF del plan de asignatura -->
+      <section id="plan-asignatura" class="seccion">
+        <div class="contenedor">
+          <h2>Plan de la asignatura (PDF)</h2>
+          <p class="descripcion">
+            Aquí está el documento oficial del plan de Ética Profesional.
+          </p>
+          <div class="tarjeta">
+            <object
+              data="pdf/plan-asignatura-etica-profesional.pdf"
+              type="application/pdf"
+              width="100%"
+              height="650"
+            >
+              <p>
+                Si no puedes ver el PDF, puedes
+                <a
+                  href="pdf/plan-asignatura-etica-profesional.pdf"
+                  target="_blank"
+                  >abrirlo aquí</a
+                >.
+              </p>
+            </object>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER: parte final con información del sitio -->
+    <footer class="pie">
+      <p>One-Page creada con fines académicos.</p>
+    </footer>
+  </body>
+</html>
